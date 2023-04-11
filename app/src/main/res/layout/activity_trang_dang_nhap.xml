@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/trangdangnhap"
+    tools:context=".TrangDangNhap">
+
+    <LinearLayout
+        android:id="@+id/linearColumnarrowleft"
+
+        style="@style/groupStylegray_200"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/man_hinh_DangNhap"
+
+            style="@style/groupStylegray_200"
+            android:layout_width="match_parent"
+            android:layout_height="741dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image_Arrowleft"
+
+                android:layout_width="@dimen/_21pxh"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/_32pxh"
+                android:layout_marginEnd="@dimen/_32pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrowleft_black_900" />
+
+            <ImageView
+                android:id="@+id/image_Comics4U"
+
+                android:layout_width="@dimen/_164pxh"
+                android:layout_height="@dimen/_130pxh"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/_32pxh"
+                android:layout_marginTop="@dimen/_79pxv"
+                android:layout_marginEnd="@dimen/_32pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_comics4u1" />
+
+            <FrameLayout
+                android:id="@+id/frameStack_DangNhap"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_434pxh"
+                android:layout_marginTop="@dimen/_54pxv"
+                android:gravity="start">
+
+                <FrameLayout
+                    android:id="@+id/frame_Stackzerotwo1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_714pxv"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="@dimen/_10pxv">
+
+                    <ImageView
+                        android:id="@+id/image_Zerotwo1"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_469pxv"
+                        android:layout_gravity="top|start"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_zerotwo1" />
+
+                    <LinearLayout
+                        android:id="@+id/linearKhungDangNhap"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="988dp"
+                        android:layout_gravity="top|center"
+                        android:layout_marginStart="@dimen/_30pxh"
+                        android:layout_marginTop="@dimen/_65pxv"
+                        android:layout_marginEnd="@dimen/_30pxh"
+                        android:layout_marginBottom="@dimen/_95pxv"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/Username"
+
+                            style="@style/etSolidRounded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_6pxh"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:background="@drawable/rectangle_bg_white_a700_radius_28_5"
+                            android:ellipsize="end"
+                            android:hint="@string/nhapEmailSdt"
+                            android:inputType="textEmailAddress"
+                            android:paddingStart="@dimen/_17pxh"
+                            android:paddingTop="@dimen/_18pxv"
+                            android:paddingEnd="@dimen/_30pxh"
+                            android:paddingBottom="@dimen/_17pxv"
+                            android:singleLine="true"
+                            android:textColorHint="@color/black_900"
+                            tools:ignore="Autofill" />
+
+                        <EditText
+                            android:id="@+id/Password"
+
+                            style="@style/etSolidRounded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_6pxh"
+                            android:layout_marginTop="@dimen/_22pxv"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:background="@drawable/rectangle_bg_white_a700_radius_28_5"
+                            android:ellipsize="end"
+                            android:hint="@string/nhapmatkhau"
+                            android:inputType="text"
+                            android:paddingStart="@dimen/_18pxh"
+                            android:paddingTop="@dimen/_18pxv"
+                            android:paddingEnd="@dimen/_30pxh"
+                            android:paddingBottom="@dimen/_17pxv"
+                            android:singleLine="true"
+                            android:textColorHint="@color/black_900"
+                            tools:ignore="Autofill" />
+
+                        <Button
+                            android:id="@+id/btDangNhap"
+
+                            style="@style/btnSolidRounded_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_58pxv"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/_30pxh"
+                            android:paddingTop="@dimen/_13pxv"
+                            android:paddingEnd="@dimen/_30pxh"
+                            android:paddingBottom="@dimen/_13pxv"
+                            android:singleLine="true"
+                            android:text="@string/textDangNhap"
+                            android:textAllCaps="false"
+                            tools:text="@string/textDangNhap" />
+
+                        <TextView
+                            android:id="@+id/txtQuenmatkhau"
+
+                            style="@style/txtPoppinsregular14_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/black_900_d8"
+                            android:text="@string/quenmatkhau"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            tools:text="@string/quenmatkhau" />
+
+                        <TextView
+                            android:id="@+id/txtChuaCoTaiKhoan"
+
+                            style="@style/txtPoppinsregular12"
+                            android:layout_width="match_parent"
+                            android:layout_height="86dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/chua_co_tai_khoan"
+                            android:textSize="17sp"
+                            tools:text="@string/chua_co_tai_khoan" />
+
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/txtDangNhap"
+
+                    style="@style/txtPoppinssemibold32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginStart="@dimen/_96pxh"
+                    android:layout_marginEnd="@dimen/_96pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/textDangNhap"
+                    tools:text="@string/textDangNhap" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+

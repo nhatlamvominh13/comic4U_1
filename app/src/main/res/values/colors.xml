@@ -8,5 +8,30 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#5B9DFF</color>
+
+
     <color name="littlepurple">#A2B2FC</color>
+
+
+    <color name="cyan_300_cc">#cc50c2c9</color>
+    <color name="white_A700_e5">#e5ffffff</color>
+    <color name="gray_500">#9d9d9d</color>
+    <color name="gray_800">#414141</color>
+    <color name="amber_100">#fff0bd</color>
+    <color name="indigo_A200">#5c59e3</color>
+    <color name="indigo_A100">#a2b2fc</color>
+    <color name="gray_200">#eeeeee</color>
+    <color name="gray_100">#f0f4f3</color>
+    <color name="black_900_d8">#d8060606</color>
+    <color name="gray_800_63">#63414141</color>
+    <color name="teal_300">#55bbaf</color>
+    <color name="cyan_300">#50c2c9</color>
+    <color name="black_900_cc">#cc000000</color>
+    <color name="indigo_A100_c9">#c9a2b2fc</color>
+    <color name="black_900">#000000</color>
+    <color name="blue_300">#5b9cff</color>
+    <color name="white_A700">#ffffff</color>
+    <color name="white_A700_9e">#9effffff</color>
+    <color name="black_900_26">#26000000</color>
+
 </resources>

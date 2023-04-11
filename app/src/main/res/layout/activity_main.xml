@@ -2,11 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/manhinhapp"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
     android:background="@color/blue"
+    android:gravity="center_horizontal"
+    android:id="@+id/man_hinh_app"
     tools:context=".MainActivity">
     <ImageView
         android:id="@+id/kobayoshi"
@@ -16,6 +17,7 @@
         android:layout_marginBottom="-305dp"
         app:srcCompat="@drawable/kobayashi" />
 
+
     <ImageView
         android:id="@+id/logowifi"
         android:layout_width="wrap_content"
@@ -23,17 +25,19 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="41dp"
-        android:layout_marginBottom="694dp"
+        android:layout_marginBottom="705dp"
         android:src="@drawable/baseline_wifi_24" />
+
     <ImageView
         android:id="@+id/logosignal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="692dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="704dp"
         app:srcCompat="@drawable/baseline_signal_cellular_alt_24" />
+
     <android.support.constraint.utils.ImageFilterView
         android:id="@+id/logopin"
         android:layout_width="wrap_content"
@@ -41,10 +45,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="696dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="705dp"
         android:src="@drawable/baseline_battery_4_bar_24" />
-
 
     <TextView
         android:id="@+id/time"
@@ -52,11 +55,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="377dp"
-        android:layout_marginBottom="697dp"
+        android:layout_marginEnd="376dp"
+        android:layout_marginBottom="700dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="9:41"
-        android:textSize="19sp"/>
+        android:textSize="19sp" />
 
     <TextView
         android:id="@+id/text"
@@ -70,7 +73,7 @@
         android:gravity="center_horizontal|center_vertical"
         android:text="Chào mừng thành viên !!"
         android:textColor="@color/white"
-        android:textSize="48sp" />
+        android:textSize="70sp" />
 
     <Button
         android:id="@+id/mo_ung_dung"
