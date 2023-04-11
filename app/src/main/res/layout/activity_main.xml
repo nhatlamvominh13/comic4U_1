@@ -8,6 +8,13 @@
     android:clipToOutline="true"
     android:background="@color/blue"
     tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/kobayoshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-305dp"
+        app:srcCompat="@drawable/kobayashi" />
 
     <ImageView
         android:id="@+id/logowifi"
@@ -19,7 +26,7 @@
         android:layout_marginBottom="694dp"
         android:src="@drawable/baseline_wifi_24" />
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logosignal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -38,27 +45,21 @@
         android:layout_marginBottom="696dp"
         android:src="@drawable/baseline_battery_4_bar_24" />
 
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="360dp"
+        android:layout_marginEnd="377dp"
         android:layout_marginBottom="697dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="9:41"
-        android:fontFamily="sans-serif-condensed-medium"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-305dp"
-        app:srcCompat="@drawable/kobayashi" />
+        android:textSize="19sp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -72,7 +73,7 @@
         android:textSize="48sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/mo_ung_dung"
         android:layout_width="317dp"
         android:layout_height="54dp"
         android:layout_alignParentStart="true"
